@@ -1,0 +1,18 @@
+# Build artifacts (large binaries — never needed inside Docker)
+tmp/
+bin/
+
+# Git history
+.git/
+
+# Dev/
+.env.*
+.gitignore
+Makefile
+.dockerignore
+
+# Docs and non-source dirs
+*.md
+image.txt
+govault/
+deploy/
