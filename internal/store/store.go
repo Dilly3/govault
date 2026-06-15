@@ -8,4 +8,5 @@ type Storer interface {
 	GetAccountStore() *AccountStore
 	GetTransactionStore() *TransactionStore
 	GetEntryStore() *EntryStore
+	GetRoleStore() *RoleStore
 }
